@@ -1,0 +1,30 @@
+/* Estilos del formulario */
+.form-group {
+    margin-bottom: 15px;
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    
+    input {
+      width: calc(100% - 12px);
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    button {
+      padding: 8px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+  }
+  
