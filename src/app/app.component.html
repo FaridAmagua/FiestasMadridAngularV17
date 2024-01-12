@@ -1,15 +1,15 @@
 <!-- app.component.html -->
 
 <header>
-    <!-- Barra de navegación u otros elementos del encabezado -->
-  </header>
-  
-  <div>
-    <!-- Contenido principal de la aplicación -->
-    <router-outlet></router-outlet> <!-- Esto se usa si estás utilizando Angular Router -->
-  </div>
-  
-  <footer>
-    <!-- Pie de página o elementos del pie de página -->
-  </footer>
-  
+  <!-- Barra de navegación u otros elementos del encabezado -->
+  <app-navbar></app-navbar>
+</header>
+
+<!-- Contenido principal de la aplicación -->
+<div>
+  <router-outlet></router-outlet> <!-- Aquí se renderizarán las vistas de Angular Router -->
+</div>
+
+<footer>
+  <!-- Pie de página o elementos del pie de página -->
+</footer>
