@@ -1,23 +1,26 @@
 import { Routes } from '@angular/router'
-import { ErrorComponent } from './features/error/error.component'
-import { HomeComponent } from './features/home/home.component'
-import { MaintenanceComponent } from './features/maintenance/maintenance.component'
+import { HomeComponent } from './core/module1/pages/home/home.component'
+import { FormComponent } from './core/module1/pages/form/form.component'
+
 
 export const routes: Routes = [
     {
         path: '',
         component: HomeComponent,
+        pathMatch:'full'    
     },
     {
-        path: 'maintenance',
-        component: MaintenanceComponent,
+        path: 'forms',
+        component: FormComponent,
+        pathMatch:'full'
     },
-    {
-        path: 'error',
-        component: ErrorComponent,
-    },
-    {
-        path: '**',
-        redirectTo: 'error',
-    },
+
+    // {
+    //     path: 'error',
+    //     component: ErrorComponent,
+    // },
+    // {
+    //     path: '**',
+    //     redirectTo: 'error',
+    // },
 ]
