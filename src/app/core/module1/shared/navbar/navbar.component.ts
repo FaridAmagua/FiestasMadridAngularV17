@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { FormComponent } from '../../pages/form/form.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [FormComponent],
+  imports: [RouterLink],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })

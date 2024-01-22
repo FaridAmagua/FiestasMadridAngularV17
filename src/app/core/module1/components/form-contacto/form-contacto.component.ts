@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-form-contacto',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './form-contacto.component.scss'
 })
 export class FormContactoComponent {
-
+  
 }
