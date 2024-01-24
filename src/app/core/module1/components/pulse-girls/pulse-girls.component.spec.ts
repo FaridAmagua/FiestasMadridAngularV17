@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormInfluencerComponent } from './form-influencer.component';
+import { PulseGirlsComponent } from './pulse-girls.component';
 
-describe('FormInfluencerComponent', () => {
-  let component: FormInfluencerComponent;
-  let fixture: ComponentFixture<FormInfluencerComponent>;
+describe('PulseGirlsComponent', () => {
+  let component: PulseGirlsComponent;
+  let fixture: ComponentFixture<PulseGirlsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FormInfluencerComponent]
+      imports: [PulseGirlsComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(FormInfluencerComponent);
+    fixture = TestBed.createComponent(PulseGirlsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
