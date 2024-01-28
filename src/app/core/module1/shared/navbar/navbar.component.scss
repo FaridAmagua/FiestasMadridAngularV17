@@ -1,0 +1,30 @@
+.navbar{
+
+  background-color: black;
+}
+.neon-text{
+    // font-size: 1.5rem; 
+    /* Tamaño del texto */
+    // font-weight: bold; 
+    /* Grosor del texto */
+    color: #ff00a6; /* Color rosa apagado */
+    text-shadow: 0 0 10px #4b1c71, 0 0 16px #4b1c71; /* Efecto de neón con colores apagados */
+  
+    /* Cambio de color del relleno en negrita */
+    // background-image: linear-gradient(to right, rgba(255, 0, 221, 0.1), rgba(255, 15, 231, 0.1));
+    // -webkit-background-clip: text;
+  }
+  .neon-text:hover{
+    // font-size: 1.5rem;
+     /* Tamaño del texto */
+    // font-weight: bold; 
+    /* Grosor del texto */
+    color: #fff
+    ; /* Color rosa apagado */
+  }
+  .logo-text{
+    color: #fff;
+  }
+  .logo-text:hover{
+    color: #ff00a6; 
+  }
