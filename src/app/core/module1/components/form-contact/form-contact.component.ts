@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './form-contact.component.scss'
 })
 export class FormContactComponent {
-
 }
